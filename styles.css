@@ -1,0 +1,51 @@
+body {
+  margin: 5% 10%
+}
+
+.content {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.btn-wrapper {
+  width: auto;
+  display: flex;
+}
+
+.btn {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.loader {
+  border: 5px solid #c5c5c5;
+  border-top: 5px solid #2892d9;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  animation: spin 0.5s linear infinite;
+  margin-top: 8px;
+  margin-left: 19px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.content-response {
+  background: lightgrey;
+  padding: 10px;
+}
